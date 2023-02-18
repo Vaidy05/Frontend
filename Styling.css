@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+header{
+    border: 2px solid #808080;
+    border-radius: 20px;
+    padding: 38px 51px 38px;
+    
+}
+
+h1{
+    display: inline;
+    font-size: 48px;
+    width: 549px;
+    height: 58px;
+    top: 71px;
+    font-weight: 200;
+    line-height: 58.09px;  
+    font-family: 'Inter',sans-serif;
+}
+
+img{
+    border-radius: 50%;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+.box{
+    float: left; 
+}
+
+.box1{
+    display: inline-block;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    padding: 20px 150px 20px 150px;
+    margin: 20px;
+    font-family: 'Inter',sans-serif;
+}
+
+p{
+    padding-left: 40px;
+    
+}
+
+.box2{
+    display: inline-block;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    padding: 20px 40px ;
+    font-family: 'Inter',sans-serif;
+    margin: 20px;
+}
+
+.box3{
+    display: inline-block;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    padding: 20px 300px 25px 30px;
+    font-family: 'Inter',sans-serif;
+    margin: 20px;
+}
+
+
+
+.boxx{
+    display: inline-block;
+    font-size: 48px;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    font-family: 'Inter',sans-serif;
+    position: relative;
+    padding-top: 43px;
+    padding-right: 190px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    bottom: 20px;
+}
+
+
+table,td{
+    border: 2px solid #808080;
+    border-collapse:collapse;
+    padding: 15px;
+}
+
+@media screen and (max-width: 640px) {
+    .boxx {width: 200px; float:left;}
+    * {width: 200px;}
+  }
+
+
+
+
+
+
